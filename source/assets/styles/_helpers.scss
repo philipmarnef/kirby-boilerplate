@@ -1,0 +1,33 @@
+/* === MIXINS === */
+
+@mixin mq($bp, $q: min-width) {
+  @media only screen and (#{$q}: $bp) {
+    @content;
+  }
+}
+
+/* === HELPER CLASSES === */
+
+.hidden {
+  display: none;
+}
+
+.inline {
+  display: inline;
+}
+
+.inline-center {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px !important; 
+  height: 1px !important; 
+  padding: 0 !important;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+  clip: rect(1px, 1px, 1px, 1px);
+  border: 0 !important;
+}

@@ -1,0 +1,9 @@
+{
+  "extends": "stylelint-config-primer",
+  "rules": {
+    "selector-max-type": [ 0, {
+      "severity": "warning",
+      ignore: ["child", "compounded", "descendant"]
+    } ]
+  }
+}

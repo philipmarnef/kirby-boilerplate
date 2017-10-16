@@ -1,0 +1,35 @@
+{
+  "name": "kirby-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Philip Marnef",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "*",
+    "babel-preset-env": "*",
+    "babel-register": "*",
+    "beepbeep": "*",
+    "browser-sync": "^*",
+    "cssnano": "*",
+    "del": "*",
+    "gulp": "github:gulpjs/gulp#4.0",
+    "gulp-babel": "*",
+    "gulp-concat": "*",
+    "gulp-image": "*",
+    "gulp-plumber": "*",
+    "gulp-postcss": "*",
+    "gulp-rev": "*",
+    "gulp-rev-replace": "*",
+    "gulp-sass": "*",
+    "gulp-sourcemaps": "*",
+    "gulp-svgmin": "*",
+    "gulp-uglify": "*",
+    "normalize.css": "*",
+    "stylelint": "*",
+    "stylelint-config-primer": "*"
+  }
+}
