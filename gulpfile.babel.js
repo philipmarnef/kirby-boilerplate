@@ -19,7 +19,7 @@ import del            from 'del';
 const paths = {
   default: {
     src: './source',
-    dest: '/public'
+    dest: './public'
   },
   assets: {
     src: './source/assets/fonts/*'
