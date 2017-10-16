@@ -4,13 +4,15 @@ Uses Docker for a webserver, builds with [Gulp](https://gulpjs.com) and refreshe
 ### Setup:
 
 Install npm packages:
-`npm install`
+`$ npm install`
 
 Download Kirby:
+
 ``` sh
+$ cd project-dir
 $ git clone https://github.com/getkirby/plainkit.git public
 ```
 
 ### Notes:
 
-To run gulp without global install, use [npx](https://www.npmjs.com/package/npx): `npx gulp`
+To run gulp without global install, use [npx](https://www.npmjs.com/package/npx): `$ npx gulp`
