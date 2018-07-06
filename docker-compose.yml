@@ -2,8 +2,8 @@ version: '3'
 
 services:
   web:
+    container_name: kirby_web
     build: ./docker/webserver
-    image: webserver
     ports:
       - "4000:80"
     volumes:

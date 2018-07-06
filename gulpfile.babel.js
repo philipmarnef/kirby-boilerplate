@@ -61,7 +61,7 @@ const cleandirs = [
 
 export function watch() {
   browserSync.init({
-    proxy: 'http://example.test:4000'
+    proxy: 'http://localhost:4000'
   });
   gulp.watch(paths.templates.src, templates);
   gulp.watch(paths.kirby.src, kirby);
