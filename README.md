@@ -1,3 +1,9 @@
+### OBSOLETE
+
+This was for Kirby 2.
+
+---
+
 Scaffolding for web development with [Kirby CMS](https://getkirby.com/).
 Uses Docker for a webserver, builds with [Gulp](https://gulpjs.com) and refreshes with BrowserSync.
 
